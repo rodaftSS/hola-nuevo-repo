@@ -5,10 +5,12 @@ package proyecto.prueba;
 
 public class App {
     public String getGreeting() {
-        String varible ="rolas"
+        String varible ="rolas";
         return "Hello"+ varible;
     }
 
     public static void main(String[] args) {
+        //se imprime
+        System.out.print(getGreeting());
     }
 }
