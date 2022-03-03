@@ -5,6 +5,14 @@ public class Cliente {
     private String apellido;
     private boolean vip;
 
+    public Cliente(){
+
+    }
+
+    public Cliente(String nombre){
+        this.nombre = nombre;
+    }
+
     public void setApellido(String apellido){
         this.apellido = apellido;
 
