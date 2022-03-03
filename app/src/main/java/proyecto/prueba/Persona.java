@@ -1,4 +1,4 @@
-package proyecto.prueba
+package proyecto.prueba;
 
 public class Persona {
     String name;

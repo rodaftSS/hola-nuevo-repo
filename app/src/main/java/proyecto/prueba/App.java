@@ -11,6 +11,6 @@ public class App {
 
     public static void main(String[] args) {
         //se imprime
-        System.out.print(getGreeting());
+        System.out.print(new App().getGreeting());
     }
 }
