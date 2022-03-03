@@ -9,7 +9,9 @@ public class Persona {
     public void constructor(){
 
     }
-
+private String cancatena(){
+    return name+apellidos;
+}
     public void print(){
         System.out.println("persona");
         System.out.println("datos");
