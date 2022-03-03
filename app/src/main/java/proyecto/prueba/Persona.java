@@ -12,5 +12,6 @@ public class Persona {
 
     public void print(){
         System.out.println("persona");
+        System.out.println("datos");
     }
 }
