@@ -38,5 +38,9 @@ public class Cliente {
         return this.vip;
     }
 
+    public void imprimir(){
+        System.out.println("nombre " + this.nombre);
+    }
+
     
 }
